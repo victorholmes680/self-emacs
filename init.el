@@ -1,5 +1,10 @@
 ;; init.el
 
+(setq package-archives
+      '(("gnu"   . "https://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+        ("melpa" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
+        ("nongnu" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/nongnu/")))
+
 ;; ---------------------------
 ;; 基础 package 初始化
 ;; ---------------------------
@@ -24,7 +29,7 @@
 ;; ---------------------------
 (load "init-org.el")
 (load "init-projectile.el")
-(load "init-ivy.el")
+;;(load "init-ivy.el")
 (load "init-treemacs.el")
 (load "init-helm.el")
 ;; ---------------------------
