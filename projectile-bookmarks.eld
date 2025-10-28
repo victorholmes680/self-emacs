@@ -1,1 +1,0 @@
-("~/.emacs.d/" "~/Desktop/zndt/workspace/energy-backend/")
