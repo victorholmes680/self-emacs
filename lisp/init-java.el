@@ -107,6 +107,16 @@
         lsp-java-configuration-update-build-configuration t
         lsp-java-java-home "/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home")
 
+  ;; Lombok agent configuration
+  (setq lsp-java-vmargs
+        (list
+         "-noverify"
+         "-Xmx1G"
+         "-XX:+UseG1GC"
+         "-XX:+UseStringDeduplication"
+         "-javaagent:/Users/wangzhixiong/.emacs.d/lombok.jar"
+         "-Xbootclasspath/a:/Users/wangzhixiong/.emacs.d/lombok.jar"))
+
   ;; Key bindings for Java LSP
   (define-key java-mode-map (kbd "C-c j j") 'lsp-java-add-overridable-methods)
   (define-key java-mode-map (kbd "C-c j t") 'lsp-java-generate-to-string)
