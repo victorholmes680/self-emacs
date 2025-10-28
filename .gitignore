@@ -1,0 +1,170 @@
+# Byte-compiled / optimized / DLL files
+*.elc
+*.el~
+
+# Package management
+elpa/
+
+# Auto-save files
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.swo
+*.swp
+auto-save-list/
+tramp
+
+# Projectile
+projectile-bookmarks.eld
+
+# LSP session files
+.lsp-session-*
+
+# Cache directories
+.cache/
+.cache-2/
+
+# Network security files
+network-security.data
+
+# Customization files
+custom.el
+custom-file.el
+
+# Backup files
+*.bak
+*.backup
+
+# Lock files
+*.lock
+
+# Temporary files
+*.tmp
+*.temp
+
+# Org mode files
+.org-id-locations
+
+# ESK (Emacs Starter Kit) files
+.esk/
+
+# Spelling dictionaries
+*.aspell
+*.pws
+
+# History files
+history
+.savehist
+
+# Places file (recent files)
+places
+
+# Recentf files
+recentf
+
+# Save-place files
+save-place
+
+# Bookmarks
+bookmarks
+bookmarks.bak
+
+# Desktop files
+desktop.bak
+desktop.lock
+
+# Session files
+session.*
+
+# Server files
+server
+
+# GPG files
+.gnupg/
+
+# Magit files
+.git/edges/
+.git/refs/
+
+# Projectile cache
+.projectile
+.projectile.cache
+
+# Company files
+company-statistics-cache.el
+
+# Helm files
+helm-adaptive-history
+helm-maybe-cached-mode-line
+
+# Flycheck files
+.flycheck/
+
+# Yasnippet files
+.yas-recompiled-cache.el
+.yas-compiled-snippets.el
+
+# Undo tree files
+undo-tree-hist/
+
+# Workgroups files
+.workgroups/
+
+# Erc logs
+erc-logs/
+
+# Notmuch files
+.notmuch/
+
+# Mu4e files
+mu4e/
+
+# GNUS files
+.newsrc-dribble
+.newsrc.eld
+
+# BBDB files
+bbdb
+
+# Semantic cache
+semantic.cache
+
+# Cask files
+.cask/
+
+# Direnv files
+.envrc
+.direnv/
+
+# Local customization
+local-*
+site-*
+site-start.el
+
+# MacOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
