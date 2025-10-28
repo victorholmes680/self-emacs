@@ -1,9 +1,10 @@
 ;; init.el
 
-(setq package-archives
-      '(("gnu"   . "https://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
-        ("melpa" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
-        ("nongnu" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/nongnu/")))
+;; proxy
+;;(setq package-archives
+;;      '(("gnu"   . "https://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+;;        ("melpa" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
+;;        ("nongnu" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/nongnu/")))
 
 ;; ---------------------------
 ;; 基础 package 初始化
@@ -32,6 +33,8 @@
 ;;(load "init-ivy.el")
 (load "init-treemacs.el")
 (load "init-helm.el")
+(load "init-lsp.el")
+(load "init-java.el")
 ;; ---------------------------
 ;; 其他全局配置
 ;; ---------------------------
