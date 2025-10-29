@@ -35,6 +35,7 @@
 (load "init-helm.el")
 (load "init-lsp.el")
 (load "init-java.el")
+(load "init-mouse.el")
 ;; ---------------------------
 ;; 其他全局配置
 ;; ---------------------------
