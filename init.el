@@ -1,5 +1,5 @@
 ;; init.el
-(tooltip-mode -1) ;; 全局禁用 tooltip
+
 ;; proxy
 ;;(setq package-archives
 ;;      '(("gnu"   . "https://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
@@ -35,8 +35,6 @@
 (load "init-helm.el")
 (load "init-lsp.el")
 (load "init-java.el")
-;;(load "init-scroll.el")
-;;(load "init-flyc.el")
 ;; ---------------------------
 ;; 其他全局配置
 ;; ---------------------------
