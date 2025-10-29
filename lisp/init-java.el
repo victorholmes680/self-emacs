@@ -49,7 +49,7 @@
         lsp-java-maven-download-javadoc t
         lsp-java-signature-help-enabled t
         lsp-java-completion-overwrite t
-        lsp-java-workspace-dir (expand-file-name "~/repo/.lsp-java-workspace/")
+        lsp-java-workspace-dir (expand-file-name "~/.emacs.d/.lsp-java-workspace/")
         lsp-java-format-enabled t
         lsp-java-save-action-organize-imports t)
 
