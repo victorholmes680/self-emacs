@@ -35,6 +35,7 @@
 (load "init-helm.el")
 (load "init-lsp.el")
 (load "init-java.el")
+(load "init-mouse.el")
 ;; ---------------------------
 ;; 其他全局配置
 ;; ---------------------------
@@ -52,3 +53,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+(global-display-line-numbers-mode t)
+
+
+
+
